@@ -6,7 +6,6 @@ function generate_theme($existing, $type, $theme, $path){
             'variables' => [
                 'title' => '',
                 'details' => '',
-                'id' => ''
             ]
         ]
     ];
