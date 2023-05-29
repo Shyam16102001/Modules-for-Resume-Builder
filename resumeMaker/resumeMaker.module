@@ -1,0 +1,14 @@
+<?php
+
+function resumemaker_theme($existing, $type, $theme, $path){
+    return [
+        'resumemaker' => [
+            'variables' => [
+                'title' => '',
+                'form' => ''
+            ]
+        ]
+    ];
+}
+
+?>

@@ -1,0 +1,7 @@
+resumeMaker.generate:
+  path: '/add'
+  defaults:
+    _controller: '\Drupal\resumeMaker\Controller\ResumeMakerController::resumeMaker'
+    _title: 'Resume Maker'
+  requirements:
+    _permission: 'access content'
